@@ -1,12 +1,11 @@
-export let numberSounds = [];
+export let numberSounds = []
 
-let files;
-let file;
+let file
 
 for(let i = 1; i <= 75; i++) {
     
-    file = new Audio('../sound/numbers/' + i.toString() + '.mp3');
+    file = new Audio('../sound/numbers/' + i.toString() + '.mp3')
     
-    numberSounds.push(file);
+    numberSounds.push(file)
 }
 
