@@ -293,7 +293,6 @@ export class Bingo extends React.Component {
  
         return (
             <div className="bingo-global">                
-                <h1>Bingo</h1>
                 
                 <div className="div-top">
                     <div className="div-game">
