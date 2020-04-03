@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import { HeaderLetter } from './headerLetter'
 
 export const CardHeader = () =>
     <div className="div-card-header">
@@ -8,10 +9,3 @@ export const CardHeader = () =>
         <HeaderLetter source='../images/G.png' />
         <HeaderLetter source='../images/O.png' />
     </div>
-
-const HeaderLetter = (props) =>
-<div className='header-letter'><img className='img-letter' src={props.source}/></div>
-
-/*
-<div className='header-letter'><span>{props.letter}</span></div>
-*/
