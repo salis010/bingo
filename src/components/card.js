@@ -15,7 +15,7 @@ export const Card = ({ card, cellClicked }) => {
 
     const cells = card.map((column, i) => 
         <div 
-            ckey={i} 
+            key={i} 
             className="column"
         >
             {populateCells(card[i], i)}

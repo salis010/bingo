@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const DrawnNumbers = ({ drawnNumbers }) => {
+export const DrawnNumbers = ({ numbers }) => {
     
-    let drawnNumbers = drawnNumbers.slice()
+    let drawnNumbers = numbers.slice()
     
     for(let i = 0; i < drawnNumbers.length; i++)
         if (drawnNumbers[i] >= 1 && drawnNumbers[i] <= 15)
@@ -17,7 +17,7 @@ export const DrawnNumbers = ({ drawnNumbers }) => {
             drawnNumbers[i] = '../images/' + 'O' + drawnNumbers[i] + '.png'
     
     drawnNumbers = drawnNumbers.map((number, i) => 
-        <div className="drawn-number">
+        <div key={i} className="drawn-number">
             <img 
                 className={"ball-image" + i} 
                 src={number}

@@ -7,8 +7,12 @@ export const WinnersBoard = (props) => {
     if (winners.length > 14) 
         winners = winners.splice(winners.length - 14, 14)
     
-    winners = winners.map((winner, i) => 
-        <div className="winner" key={i}><span>{winner}</span></div>
+        winners = winners.map((winner, i) => 
+            <div className="winner" key={i}>
+                <span>
+                    {winner}
+                </span>
+            </div>
     )
 
     return (
