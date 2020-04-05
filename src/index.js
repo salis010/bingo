@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Bingo } from './src/bingo'
+import { Bingo } from './bingo'
+import './styles/bingo.css'
 
 const mountNode = document.getElementById('mountNode')
 
