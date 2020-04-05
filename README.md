@@ -1,6 +1,6 @@
 # bingo
 
-Bingo game built with React, improved slightly along the years.
+Bingo game built with React in 2017, improved slightly along the years.
 
 ![](bingo.png)
 

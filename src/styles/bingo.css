@@ -3,7 +3,7 @@ body {
 }
 
 .bingo-global {
-    background-image: url("/images/background.jpg");
+    background-image: url("/media/images/background.jpg");
     background-repeat: repeat;
 }
 
@@ -107,7 +107,7 @@ body {
     height: 73px;
     line-height: 73px;
     text-align: center;
-    background-image: url("/images/tile.png");
+    background-image: url("/media/images/tile.png");
     background-size:73px 73px;    
 }
 
@@ -130,7 +130,7 @@ body {
     width: 200px;
     height: 500px;
     margin: 10px;
-    background-image: url("/images/notice-board.png");
+    background-image: url("/media/images/notice-board.png");
 }
 
 .winners-list {
