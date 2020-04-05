@@ -35,10 +35,10 @@ export class Bingo extends React.Component {
         this.firstGame = true
         this.timer                
         this.startButton
-        this.beep = new Audio('../sound/beep.mp3')
-        this.music = new Audio('../sound/music.mp3')
+        this.beep = new Audio('/media/sound/beep.mp3')
+        this.music = new Audio('/media/sound/music.mp3')
         this.music.loop = true
-        this.bingo = new Audio('../sound/bingo.mp3')
+        this.bingo = new Audio('/media/sound/bingo.mp3')
         
         this.startButtonClicked = this.startButtonClicked.bind(this)
         this.initiateGame =this.initiateGame.bind(this)
