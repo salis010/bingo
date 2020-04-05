@@ -20,9 +20,6 @@ app.get('/sound/:fileName', (req, res) => {
 	res.sendFile(fileName, {root: path.join(__dirname, 'media', 'sound')})
 })
 
-
-
-
 app.listen(3000, function () {
 	console.log('Listening on port 3000')
 })
